@@ -5,6 +5,7 @@ import jwt from "jsonwebtoken";
 import { DB } from "@/app/libs/DB";
 import { NextResponse } from "next/server";
 
+// finished
 export const POST = async (request) => {
   const body = await request.json();
   const { username, password } = body;
